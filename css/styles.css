@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0em 1em 0em 1em;
+}
+
+header {
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+main {
+  flex-grow: 1;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1em;
+}
+
+#linklist {
+  padding-left: 1em;
+}
+
+i.fa-github {
+  font-size: 36px;
+  color: black;
+}
+
+i.fa-linkedin-square {
+  font-size: 36px;
+  color: #0077b5;
+}
+
+footer {
+  border-top: 2px solid black;
+}
